@@ -1,0 +1,56 @@
+:root {
+  --bg0: #07110e;
+  --bg1: #0d1a16;
+  --ink: #e8f2ee;
+  --muted: #8aa399;
+  --line: rgba(232, 242, 238, 0.1);
+  --teal: #5eead4;
+  --teal-dim: rgba(94, 234, 212, 0.16);
+  --amber: #f4c15d;
+  --coral: #ff7a59;
+  --ok: #7ee787;
+  --font-display: "Bricolage Grotesque", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", system-ui, sans-serif;
+  --radius: 18px;
+  color: var(--ink);
+  background: var(--bg0);
+  font-family: var(--font-body);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  background:
+    radial-gradient(1200px 700px at 85% -10%, rgba(94, 234, 212, 0.14), transparent 55%),
+    radial-gradient(900px 600px at -10% 30%, rgba(244, 193, 93, 0.08), transparent 50%),
+    linear-gradient(180deg, #0a1612 0%, var(--bg0) 45%, #050c0a 100%);
+  background-attachment: fixed;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}
